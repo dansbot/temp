@@ -1,0 +1,28 @@
+{
+  "workbench.colorTheme": "Default Dark+",
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true
+  },
+  "[python]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    },
+    "editor.formatOnType": true
+  },
+  "isort.args": ["--profile", "black"],
+  "git.openRepositoryInParentFolders": "always",
+  "security.workspace.trust.untrustedFiles": "open",
+  "window.zoomLevel": 1,
+  "autoDocstring.docstringFormat": "sphinx",
+  "python.linting.mypyEnabled": false,
+  "python.envFile": "${workspaceFolder}/.env",
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "jupyter.askForKernelRestart": false,
+  "terminal.integrated.defaultProfile.windows": "Command Prompt"
+}
