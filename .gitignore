@@ -1,4 +1,8 @@
 .vscode
-data
+data/mit-bih-arrhythmia-database-1.0.0
+data/mit-bih-malignant-ventricular-ectopy-database-1.0.0
+data/mit-bih-normal-sinus-rhythm-database-1.0.0
+data/mit-bih-supraventricular-arrhythmia-database-1.0.0
 venv
 *.yaml
+*sw_.*
